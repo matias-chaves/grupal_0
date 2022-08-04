@@ -1,0 +1,30 @@
+body {
+    background-color: #f6f7ed;
+}
+
+
+header {
+    background-color: #7a4d4d;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(150, 235, 137);
+    flex: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    width: 50px;
+    margin-left: 50px;
+}
+
